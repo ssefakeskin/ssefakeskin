@@ -58,6 +58,18 @@ const langs = Object.entries(langBytes).sort((a, b) => b[1] - a[1]);
 const totalBytes = langs.reduce((s, [, b]) => s + b, 0);
 const top = langs.filter(([, b]) => b / totalBytes >= 0.005).slice(0, 6).map(([name, b]) => ({ name, pct: (b / totalBytes) * 100 }));
 const me = await gh(`/users/${USER}`);
+
+// Contribution calendar totals, year by year. Private work is included once
+// "Include private contributions on my profile" is on in GitHub settings.
+let contributions = 0;
+for (let y = new Date(me.created_at).getUTCFullYear(); y <= new Date().getUTCFullYear(); y++) {
+  const res = await fetch("https://api.github.com/graphql", {
+    method: "POST",
+    headers: { Authorization: `Bearer ${TOKEN}` },
+    body: JSON.stringify({ query: `query{user(login:"${USER}"){contributionsCollection(from:"${y}-01-01T00:00:00Z",to:"${y}-12-31T23:59:59Z"){contributionCalendar{totalContributions}}}}` }),
+  });
+  contributions += (await res.json()).data.user.contributionsCollection.contributionCalendar.totalContributions;
+}
 const since = new Date(me.created_at).toLocaleDateString("en-US", { month: "short", year: "numeric" });
 const privateCount = repos.filter((r) => r.private).length;
 
@@ -84,9 +96,9 @@ const frame = (w, h, title, body) => `<svg xmlns="http://www.w3.org/2000/svg" wi
 
 // ---------- stats card ----------
 const stats = [
-  ["Commits", commits.toLocaleString("en-US")],
-  ["Repositories", repos.length],
+  ["Contributions", contributions.toLocaleString("en-US")],
   ["Team projects", repos.filter((r) => r.fork).length],
+  ["Repositories", repos.length],
   ["Languages", top.length],
 ];
 const statsSvg = frame(420, 180, "Activity", stats.map(([label, value], i) => {
@@ -184,4 +196,4 @@ mkdirSync(OUT, { recursive: true });
 writeFileSync(join(OUT, "header.svg"), header);
 writeFileSync(join(OUT, "stats.svg"), statsSvg);
 writeFileSync(join(OUT, "languages.svg"), langSvg);
-console.log({ commits, repos: repos.length, privateCount, languages: langs.length, top: top.map((l) => `${l.name} ${l.pct.toFixed(1)}%`) });
+console.log({ contributions, commits, repos: repos.length, privateCount, languages: langs.length, top: top.map((l) => `${l.name} ${l.pct.toFixed(1)}%`) });

@@ -17,16 +17,16 @@
   <text x="36" y="35" class="t">Activity</text>
   <g class="fade" style="animation-delay:0ms">
     <rect x="24" y="60" width="180" height="46" rx="10" fill="#161B22" stroke="#21262D"/>
-    <text x="38" y="89" class="v">106</text>
-    <text x="190" y="88" class="l" text-anchor="end">Commits</text>
+    <text x="38" y="89" class="v">1,924</text>
+    <text x="190" y="88" class="l" text-anchor="end">Contributions</text>
   </g><g class="fade" style="animation-delay:120ms">
     <rect x="220" y="60" width="180" height="46" rx="10" fill="#161B22" stroke="#21262D"/>
-    <text x="234" y="89" class="v">11</text>
-    <text x="386" y="88" class="l" text-anchor="end">Repositories</text>
+    <text x="234" y="89" class="v">3</text>
+    <text x="386" y="88" class="l" text-anchor="end">Team projects</text>
   </g><g class="fade" style="animation-delay:240ms">
     <rect x="24" y="116" width="180" height="46" rx="10" fill="#161B22" stroke="#21262D"/>
-    <text x="38" y="145" class="v">3</text>
-    <text x="190" y="144" class="l" text-anchor="end">Team projects</text>
+    <text x="38" y="145" class="v">12</text>
+    <text x="190" y="144" class="l" text-anchor="end">Repositories</text>
   </g><g class="fade" style="animation-delay:360ms">
     <rect x="220" y="116" width="180" height="46" rx="10" fill="#161B22" stroke="#21262D"/>
     <text x="234" y="145" class="v">5</text>
