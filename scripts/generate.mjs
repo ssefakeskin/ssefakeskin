@@ -194,6 +194,5 @@ const header = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320
 
 mkdirSync(OUT, { recursive: true });
 writeFileSync(join(OUT, "header.svg"), header);
-writeFileSync(join(OUT, "stats.svg"), statsSvg);
 writeFileSync(join(OUT, "languages.svg"), langSvg);
 console.log({ contributions, commits, repos: repos.length, privateCount, languages: langs.length, top: top.map((l) => `${l.name} ${l.pct.toFixed(1)}%`) });

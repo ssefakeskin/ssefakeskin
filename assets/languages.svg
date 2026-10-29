@@ -17,7 +17,7 @@
   <text x="36" y="35" class="t">Languages</text>
   
   <clipPath id="clip"><rect x="24" y="58" width="372" height="10" rx="5"/></clipPath>
-  <g clip-path="url(#clip)"><g style="transform-origin:24px 63px;animation:grow 1s cubic-bezier(.2,.8,.2,1) forwards"><rect x="24" y="58" width="204.1902289219029" height="10" fill="#00B4AB"/><rect x="228.1902289219029" y="58" width="52.823458958158575" height="10" fill="#3572A5"/><rect x="281.01368788006147" y="58" width="50.931499214372536" height="10" fill="#3178C6"/><rect x="331.945187094434" y="58" width="43.06887677071362" height="10" fill="#B07219"/><rect x="375.01406386514765" y="58" width="20.970885570438785" height="10" fill="#F1E05A"/></g></g>
+  <g clip-path="url(#clip)"><g style="transform-origin:24px 63px;animation:grow 1s cubic-bezier(.2,.8,.2,1) forwards"><rect x="24" y="58" width="204.137256836847" height="10" fill="#00B4AB"/><rect x="228.137256836847" y="58" width="52.80975522328522" height="10" fill="#3572A5"/><rect x="280.94701206013224" y="58" width="50.91828630147924" height="10" fill="#3178C6"/><rect x="331.8652983616115" y="58" width="43.05770361999233" height="10" fill="#B07219"/><rect x="374.9230019816038" y="58" width="21.06195135847782" height="10" fill="#F1E05A"/></g></g>
   <g class="fade" style="animation-delay:200ms">
     <circle cx="30" cy="92" r="5" fill="#00B4AB"/>
     <text x="42" y="96" class="t" style="font-size:13px">Dart</text>
@@ -37,7 +37,7 @@
   </g><g class="fade" style="animation-delay:560ms">
     <circle cx="30" cy="144" r="5" fill="#F1E05A"/>
     <text x="42" y="148" class="t" style="font-size:13px">JavaScript</text>
-    <text x="204" y="148" class="m" text-anchor="end">5.6%</text>
+    <text x="204" y="148" class="m" text-anchor="end">5.7%</text>
   </g>
   <text x="396" y="35" class="m" text-anchor="end">own repos · incl. private</text>
 </svg>

@@ -96,8 +96,7 @@ Ongoing work on a **kingdom-wars strategy game**, a **native MMORTS prototype** 
 
 <div align="center">
 
-<img src="assets/stats.svg" width="49%" alt="Activity" />
-<img src="assets/languages.svg" width="49%" alt="Languages" />
+<img src="assets/languages.svg" width="420" alt="Languages" />
 
 <br/><br/>
 
