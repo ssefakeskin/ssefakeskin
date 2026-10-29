@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Sefa — Game &amp; Full-Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070B14"/><stop offset=".55" stop-color="#0B1324"/><stop offset="1" stop-color="#0D1117"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#818CF8"/></linearGradient>
+    <radialGradient id="glowA" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#22D3EE" stop-opacity=".35"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#818CF8" stop-opacity=".3"/><stop offset="1" stop-color="#818CF8" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1B2433" stroke-width="1"/></pattern>
+    <linearGradient id="gridFade" x1="0" y1="0" x2="1" y2="0"><stop offset=".35" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".9"/></linearGradient>
+    <mask id="gm"><rect width="1200" height="320" fill="url(#gridFade)"/></mask>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .name{font:800 92px 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;fill:#F0F6FC;letter-spacing:-2px}
+    .role{font:600 26px 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;fill:url(#ac)}
+    .tag{font:600 14px ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace;fill:#C9D1D9}
+    .meta{font:500 14px ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace;fill:#6E7681}
+    .drift{animation:drift 9s ease-in-out infinite alternate}
+    .drift2{animation:drift 11s ease-in-out infinite alternate-reverse}
+    .orbit{transform-origin:960px 160px;animation:spin 28s linear infinite}
+    .orbit2{transform-origin:960px 160px;animation:spin 40s linear infinite reverse}
+    .blink{animation:blink 1.1s steps(1) infinite}
+    .rise{opacity:0;animation:rise .8s cubic-bezier(.2,.8,.2,1) forwards}
+    @keyframes drift{to{transform:translate(-40px,18px)}}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes blink{50%{opacity:0}}
+    @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)" mask="url(#gm)"/>
+    <circle class="drift" cx="980" cy="120" r="260" fill="url(#glowA)"/>
+    <circle class="drift2" cx="760" cy="300" r="220" fill="url(#glowB)"/>
+
+    <!-- orbit motif: one core, many platforms -->
+    <g opacity=".9">
+      <circle cx="960" cy="160" r="110" fill="none" stroke="#22D3EE" stroke-opacity=".25" stroke-dasharray="2 8"/>
+      <circle cx="960" cy="160" r="70" fill="none" stroke="#818CF8" stroke-opacity=".3"/>
+      <g class="orbit"><circle cx="1070" cy="160" r="7" fill="#22D3EE"/><circle cx="850" cy="160" r="4" fill="#E6EDF3" opacity=".6"/></g>
+      <g class="orbit2"><circle cx="960" cy="90" r="6" fill="#818CF8"/><circle cx="960" cy="230" r="3.5" fill="#22D3EE" opacity=".7"/></g>
+      <rect x="936" y="136" width="48" height="48" rx="12" fill="#0D1117" stroke="url(#ac)" stroke-width="2"/>
+      <text x="960" y="168" text-anchor="middle" style="font:700 22px ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace;fill:url(#ac)">&lt;/&gt;</text>
+    </g>
+
+    <g class="rise">
+      <text x="72" y="104" class="meta">~/ssefakeskin <tspan fill="#22D3EE">❯</tspan> whoami<tspan class="blink" fill="#22D3EE">▍</tspan></text>
+    </g>
+    <g class="rise" style="animation-delay:.12s"><text x="66" y="196" class="name">Sefa</text></g>
+    <g class="rise" style="animation-delay:.24s"><text x="72" y="238" class="role">Game &amp; Full-Stack Developer</text></g>
+    <g class="rise" style="animation-delay:.36s">
+      <rect x="72" y="260" width="100" height="30" rx="15" fill="#111827" stroke="#263042"/><text x="122" y="280" text-anchor="middle" class="tag">Roblox</text><rect x="184" y="260" width="100" height="30" rx="15" fill="#111827" stroke="#263042"/><text x="234" y="280" text-anchor="middle" class="tag">FiveM</text><rect x="296" y="260" width="100" height="30" rx="15" fill="#111827" stroke="#263042"/><text x="346" y="280" text-anchor="middle" class="tag">Flutter</text><rect x="408" y="260" width="100" height="30" rx="15" fill="#111827" stroke="#263042"/><text x="458" y="280" text-anchor="middle" class="tag">Next.js</text><rect x="520" y="260" width="100" height="30" rx="15" fill="#111827" stroke="#263042"/><text x="570" y="280" text-anchor="middle" class="tag">ROS 2</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="318" rx="18" fill="none" stroke="#1F2937"/>
+</svg>

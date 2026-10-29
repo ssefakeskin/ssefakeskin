@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="180" viewBox="0 0 420 180" role="img" aria-label="Languages">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#0D1117"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#818CF8"/></linearGradient>
+  </defs>
+  <style>
+    .t{font:600 15px 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;fill:#E6EDF3;letter-spacing:.3px}
+    .l{font:400 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;fill:#8B949E}
+    .v{font:700 24px 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;fill:#F0F6FC}
+    .m{font:500 12px ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace;fill:#8B949E}
+    .fade{opacity:0;animation:in .6s ease forwards}
+    @keyframes in{to{opacity:1}}
+    @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  </style>
+  <rect x=".5" y=".5" width="419" height="179" rx="14" fill="url(#bg)" stroke="#21262D"/>
+  <rect x="24" y="22" width="4" height="16" rx="2" fill="url(#ac)"/>
+  <text x="36" y="35" class="t">Languages</text>
+  
+  <clipPath id="clip"><rect x="24" y="58" width="372" height="10" rx="5"/></clipPath>
+  <g clip-path="url(#clip)"><g style="transform-origin:24px 63px;animation:grow 1s cubic-bezier(.2,.8,.2,1) forwards"><rect x="24" y="58" width="204.97355276877" height="10" fill="#00B4AB"/><rect x="228.97355276877" y="58" width="53.02610271488682" height="10" fill="#3572A5"/><rect x="281.9996554836568" y="58" width="51.126884949047295" height="10" fill="#3178C6"/><rect x="333.1265404327041" y="58" width="43.23409955541987" height="10" fill="#B07219"/><rect x="376.3606399881239" y="58" width="19.6242517098024" height="10" fill="#F1E05A"/></g></g>
+  <g class="fade" style="animation-delay:200ms">
+    <circle cx="30" cy="92" r="5" fill="#00B4AB"/>
+    <text x="42" y="96" class="t" style="font-size:13px">Dart</text>
+    <text x="204" y="96" class="m" text-anchor="end">55.1%</text>
+  </g><g class="fade" style="animation-delay:290ms">
+    <circle cx="226" cy="92" r="5" fill="#3572A5"/>
+    <text x="238" y="96" class="t" style="font-size:13px">Python</text>
+    <text x="400" y="96" class="m" text-anchor="end">14.3%</text>
+  </g><g class="fade" style="animation-delay:380ms">
+    <circle cx="30" cy="118" r="5" fill="#3178C6"/>
+    <text x="42" y="122" class="t" style="font-size:13px">TypeScript</text>
+    <text x="204" y="122" class="m" text-anchor="end">13.7%</text>
+  </g><g class="fade" style="animation-delay:470ms">
+    <circle cx="226" cy="118" r="5" fill="#B07219"/>
+    <text x="238" y="122" class="t" style="font-size:13px">Java</text>
+    <text x="400" y="122" class="m" text-anchor="end">11.6%</text>
+  </g><g class="fade" style="animation-delay:560ms">
+    <circle cx="30" cy="144" r="5" fill="#F1E05A"/>
+    <text x="42" y="148" class="t" style="font-size:13px">JavaScript</text>
+    <text x="204" y="148" class="m" text-anchor="end">5.3%</text>
+  </g>
+  <text x="396" y="35" class="m" text-anchor="end">own repos · incl. private</text>
+</svg>
