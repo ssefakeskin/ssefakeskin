@@ -2,10 +2,11 @@
 
 <img src="assets/header.svg" width="100%" alt="Sefa — Game & Full-Stack Developer" />
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=18&pause=1400&color=22D3EE&center=true&vCenter=true&width=640&lines=Gameplay+systems+in+Luau+%26+Lua;Cross-platform+apps+with+Flutter+%2B+Firebase;Production+web+apps+with+Next.js+%26+Prisma;From+idea+to+playable+product" alt="What I build" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=18&pause=1400&color=22D3EE&center=true&vCenter=true&width=640&lines=Gameplay+systems+in+Luau+%26+Lua;Cross-platform+apps+with+Flutter+%2B+Firebase;Production+web+apps+with+Next.js+%26+Prisma;Computer+Engineering+%40+F%C4%B1rat+University;From+idea+to+playable+product" alt="What I build" />
 
 **I build games, apps and the tooling behind them — from the first prototype to something people actually use.**
 
+<a href="https://www.linkedin.com/in/ssefakeskin/"><img src="https://img.shields.io/badge/LinkedIn-Sefa_İsmail_Keskin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn"></a>
 <img src="https://img.shields.io/badge/Open_to-Collaboration-22D3EE?style=for-the-badge&labelColor=0D1117" alt="Open to collaboration">
 <img src="https://img.shields.io/badge/Focus-Games_·_Mobile_·_Web-818CF8?style=for-the-badge&labelColor=0D1117" alt="Focus">
 <img src="https://img.shields.io/badge/Based_in-Türkiye-E30A17?style=for-the-badge&labelColor=0D1117" alt="Türkiye">
@@ -16,9 +17,21 @@
 
 ### About
 
-I'm a developer working **across games, mobile and the web.** I write gameplay systems in **Luau** for Roblox and **Lua** for FiveM, ship cross-platform apps with **Flutter + Firebase**, and build production web apps with **Next.js, TypeScript and Prisma**.
+I'm a **3rd-year Computer Engineering student at Fırat University** and a developer working **across games, mobile and the web.** I write gameplay systems in **Luau** for Roblox and **Lua** for FiveM, ship cross-platform apps with **Flutter + Firebase**, and build production web apps with **Next.js, TypeScript and Prisma**.
 
 I like owning a product end to end — the game loop, the backend, the admin tooling and the pipeline that generates the content. Most of my work lives in private repositories; the highlights are below.
+
+---
+
+### Education & Achievements
+
+🎓 **Fırat University** — B.Sc. Computer Engineering · *3rd year*
+
+🚀 **TUA Astro Hackathon 2026 — Interstellar Local Mentor**<br/>
+Mentored competing teams at the Turkish Space Agency's Astro Hackathon, guiding them from early ideas to working space-tech projects. *(Mar 2026)*
+
+✈️ **TEKNOFEST Combat UAV (Savaşan İHA) — Team EGM Mergen**<br/>
+Team member in Türkiye's national autonomous combat UAV competition, working with ROS 2 and robotics tooling.
 
 ---
 
@@ -43,7 +56,7 @@ Ongoing work on a **kingdom-wars strategy game**, a **native MMORTS prototype** 
 
 ### Beyond games
 
-- 🤖 **Robotics** — team project on ROS 2 + Gazebo simulation: topic bridging and robot control → [btkamr_edu](https://github.com/ssefakeskin/btkamr_edu)
+- 🤖 **Robotics** — ROS 2 + Gazebo simulation for autonomous systems: topic bridging and robot control → [btkamr_edu](https://github.com/ssefakeskin/btkamr_edu)
 - ☕ **Java** — object-oriented programming workspace → [java_ws](https://github.com/ssefakeskin/java_ws)
 
 ---
