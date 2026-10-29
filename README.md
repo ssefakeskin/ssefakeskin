@@ -24,19 +24,19 @@ I like owning a product end to end — the game loop, the backend, the admin too
 
 ### What I've built
 
-**🧩 Vocabulary Puzzle Game** · *Flutter · Firebase · Python*
+**🧩 Vocabulary Puzzle Game** · *Flutter · Firebase · Python*<br/>
 A word-wheel / crossword puzzle game that teaches English. CEFR-levelled content (A1–C2), a word card for every answer with meaning, pronunciation and an example sentence, a personal word notebook and **FSRS spaced-repetition** review puzzles. Levels are produced by an offline **Python generation pipeline**.
 
-**🗺️ Graph-Route** · *Next.js 14 · TypeScript · Prisma · Auth.js*
+**🗺️ Graph-Route** · *Next.js 14 · TypeScript · Prisma · Auth.js*<br/>
 A smart, sustainable **route optimization** platform — an authenticated multi-user web app with a relational data model, a shadcn/Tailwind UI with Framer Motion, and a dedicated marketing landing page.
 
-**🏪 Web Studio Toolkit** · *Node.js · OpenStreetMap · Automation*
+**🏪 Web Studio Toolkit** · *Node.js · OpenStreetMap · Automation*<br/>
 An end-to-end system for selling websites to local businesses: **28 hand-designed single-file demo sites**, a CSV-driven site generator with sector-based palettes and typography, a **lead finder** that pulls businesses without a website from OpenStreetMap (Overpass) into Excel with ready-to-send outreach messages, and a local **admin panel with a built-in CRM**.
 
-**🎮 Roblox** · *Luau · Rojo · Aftman*
+**🎮 Roblox** · *Luau · Rojo · Aftman*<br/>
 Contributor to **Tinyverse**, a team-built Roblox experience, plus my own Roblox projects — all with a professional file-based workflow (Rojo + Aftman), client/server architecture and source-controlled places instead of Studio-only code.
 
-**⚔️ Strategy & Multiplayer** · *FiveM · RTS*
+**⚔️ Strategy & Multiplayer** · *FiveM · RTS*<br/>
 Ongoing work on a **kingdom-wars strategy game**, a **native MMORTS prototype** and **FiveM** server resources — exploring game networking and large-scale game state.
 
 ---
